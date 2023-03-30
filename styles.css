@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  background-color: bisque;
+  padding: 0 100px 0 100px;
+}
+.braner {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: pink;
+  width: 100%;
+}
+.branercenter {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+.mycart {
+  display: flex;
+  /* flex-direction: column; */
+  padding-top: 20px;
+}
+.box-l {
+  display: flex;
+  flex-flow: column;
+}
+.pic1 {
+  border: 1px solid silver;
+  border-radius: 12px;
+  width: 240px;
+  height: 190px;
+  text-align: center;
+  padding-top: 5px;
+  color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  align-items: start;
+  padding-left: 10px;
+  font-weight: 900;
+  background: linear-gradient(
+    135deg,
+    rgba(233, 160, 108, 1) 38%,
+    rgba(238, 225, 120, 1) 100%
+  );
+}
+.box-t {
+  display: flex;
+  flex-flow: row nowrap;
+  border: 1px solid rgb(249, 235, 217);
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgb(216, 214, 214);
+  padding: 10px;
+  margin: 10px;
+  width: 480px;
+  height: 220px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.detail {
+  color: rgb(131, 131, 131);
+  font-weight: 900;
+  display: block;
+  margin-left: 16px;
+}
+
+select {
+  margin-block: 20px 70px;
+  background: rgb(249, 235, 217);
+  color: rgb(131, 131, 131);
+  padding: 5px;
+  border-color: rgb(195, 195, 195);
+  border-radius: 8px;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 900;
+  align-items: baseline;
+}
+.box-r {
+  border: 1px solid rgb(218, 218, 218);
+  border-radius: 8px;
+  width: 500px;
+  height: 300px;
+  margin: 10px;
+  padding: 15px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+}
+.box1 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  /* padding: 20px; */
+  margin-top: 20px;
+}
+.code {
+  border-bottom: 1px solid silver;
+  padding-bottom: 30px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.code > input {
+  padding-block: 8px;
+  width: 270px;
+  margin-inline: 10px;
+  background: rgb(249, 235, 217);
+  border: 1px solid rgb(195, 195, 195);
+  border-radius: 8px;
+  padding-left: 3px;
+}
+button {
+  padding-block: 8px;
+  width: 150px;
+  background: rgb(249, 235, 217);
+  border: 1px solid rgb(67, 200, 134);
+  border-radius: 8px;
+  color: rgb(67, 200, 134);
+}
+.pay {
+  color: rgb(67, 200, 134);
+  font-size: 1.5rem;
+  margin-top: 30px;
+}
+.sub {
+  background: rgb(67, 200, 134);
+  padding: 5px;
+  border: 1px px solid rgb(67, 200, 134);
+  border-radius: 8px;
+}
